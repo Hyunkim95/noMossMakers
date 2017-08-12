@@ -5,7 +5,7 @@ import style from './header.css';
 class Header extends Component {
   render() {
     return (
-      <h1 className="top-padding white text-center">Queue'd</h1>
+      <h1 className="top-padding white text-center title">Queue'd</h1>
     );
   }
 }
