@@ -2,8 +2,7 @@ import React, { Component } from 'react';
 import Navbar from './presentational/navbar/navbar';
 import CustomDropdown from './presentational/customDropdown/customDropdown';
 import CustomSearchBar from './presentational/customSearchBar/customSearchBar';
-import { sicknessType } from './data/sicknessType';
-import { test } from './data/test'
+import Form from './presentational/Form/form';
 import style from './App.css';
 
 class App extends Component {
@@ -12,8 +11,14 @@ class App extends Component {
       <div className="background mobile-only">
         <Navbar />
         <CustomDropdown />
-        <CustomSearchBar
-          search={test}
+        <CustomSearchBar />
+        <Form
+          icon = "mail"
+          placeholder = "EMAIL"
+        />
+        <Form
+          icon = "lock"
+          placeholder = "PASSWORD"
         />
       </div>
     );

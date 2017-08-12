@@ -1,16 +1,15 @@
 import React, { Component } from 'react';
-import style from './App.css';
+import { Input } from 'semantic-ui-react';
+import style from './form.css';
 
-class App extends Component {
+class Form extends Component {
   render() {
     return (
-      <div className="background mobile-only">
-        < Navbar />
-        < CustomDropdown />
-        < CustomSearchBar />
+      <div className="custom-form">
+        <Input className="text-form" icon={this.props.icon} iconPosition='left' placeholder={this.props.placeholder} />
       </div>
     );
   }
 }
 
-export default App;
+export default Form;

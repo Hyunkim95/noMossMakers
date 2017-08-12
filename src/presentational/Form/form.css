@@ -1,0 +1,9 @@
+.custom-form .ui.input input {
+  background: none !important;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  border-bottom: 1px solid white;
+  border-radius: none !important;
+  color: white;
+}
