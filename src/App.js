@@ -1,12 +1,14 @@
 import React, { Component } from 'react';
-import Navbar from './presentational/navbar/navbar'
+import Navbar from './presentational/navBar/navBar';
+import CustomDropdown from './presentational/customDropdown/customDropdown';
 import style from './App.css'
 
 class App extends Component {
   render() {
     return (
       <div className="background mobile-only">
-        <Navbar />
+        < Navbar />
+        < CustomDropdown />
       </div>
     );
   }
