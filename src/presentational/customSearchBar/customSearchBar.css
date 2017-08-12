@@ -1,0 +1,8 @@
+.custom .ui.input {
+  width: 100% !important;
+}
+
+.custom .ui.search .prompt {
+  border-radius: 3px;
+}
+

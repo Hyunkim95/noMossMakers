@@ -1,16 +1,16 @@
 import React, { Component } from 'react';
 import _ from 'lodash';
+import style from './customSearchBar.css'
 import { Search } from 'semantic-ui-react';
 
 class CustomSearchBar extends Component {
-
   componentWillMount() {
     this.resetComponent()
   }
 
   resetComponent = () => this.setState({ isLoading: false, results: [], value: '' })
 
-  handleResultSelect = (e, { result }) => this.setState({ value: result.location })
+  handleResultSelect = (e, { result }) => this.setState({ value: result[this.props.selector] })
 
   handleSearchChange = (e, { value }) => {
     this.setState({ isLoading: true, value })
@@ -19,7 +19,7 @@ class CustomSearchBar extends Component {
       if (this.state.value.length < 1) return this.resetComponent()
 
       const re = new RegExp(_.escapeRegExp(this.state.value), 'i')
-      const isMatch = (result) => re.test(result.location)
+      const isMatch = (result) => re.test(result[this.props.selector])
 
       this.setState({
         isLoading: false,
@@ -32,14 +32,14 @@ class CustomSearchBar extends Component {
     const { isLoading, value, results } = this.state
 
     return (
-      <div className="custom">
+      <div className="custom search-bar">
         <Search
+          fluid
           loading={isLoading}
           onResultSelect={this.handleResultSelect}
           onSearchChange={this.handleSearchChange}
           results={results}
           value={value}
-          {...this.props}
         />
       </div>
     );
