@@ -1,6 +1,10 @@
 import React, { Component } from 'react';
+<<<<<<< HEAD
+import style from './navbar.css'
+=======
 import style from './navbar.css';
 import profile from "../../image/user.png";
+>>>>>>> 09c68b223fb150e141c0a4753c7de8300fad2936
 
 class Navbar extends Component {
   render() {

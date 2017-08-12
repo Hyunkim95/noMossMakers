@@ -9,14 +9,14 @@ class App extends Component {
   render() {
     return (
       <div className="background mobile-only">
-        < Navbar />
-        < CustomDropdown />
-        < CustomSearchBar />
-        < Form 
+        <Navbar />
+        <CustomDropdown />
+        <CustomSearchBar />
+        <Form
           icon = "mail"
           placeholder = "EMAIL"
         />
-        < Form 
+        <Form
           icon = "lock"
           placeholder = "PASSWORD"
         />
