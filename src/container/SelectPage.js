@@ -8,7 +8,11 @@ class SelectPage extends Component {
       <div>
         <h1>Select</h1>
         <Link to="/appointment">
-          <SelectButton basic size='large'>
+          <SelectButton
+            basic size='large'
+            buttonColour='blue'
+            buttonText='Select Clinic'
+          >
             <h4>SELECT CLINIC</h4>
           </SelectButton>
         </Link>
