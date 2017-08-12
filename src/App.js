@@ -11,6 +11,7 @@ import FindPage from './container/FindPage';
 import SelectPage from './container/SelectPage';
 import AppointmentPage from './container/AppointmentPage';
 import QueuePage from './container/QueuePage';
+import ReviewPage from './container/ReviewPage';
 import { BrowserRouter as Router, Route, Link } from 'react-router-dom';
 
 class App extends Component {
@@ -25,6 +26,7 @@ class App extends Component {
             <Route path="/select" component={SelectPage}/>
             <Route path="/appointment" component={AppointmentPage}/>
             <Route path="/queue" component={QueuePage}/>
+            <Route path="/review" component={ReviewPage}/>
           </div>
         </Router>
       </div>

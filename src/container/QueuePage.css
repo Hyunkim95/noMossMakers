@@ -1,0 +1,73 @@
+.text-right{
+  text-align: right;
+}
+
+.position{
+  width: 100%;
+  padding-top: 1em;
+  padding-bottom: 1em;
+  background: white;
+}
+
+.background-grow{
+  background-image: url('../image/background.png');
+}
+
+
+.position-text {
+  font-size: 1.2em;
+}
+
+.positioning{
+  font-size: 1.5em;
+}
+
+.clock{
+  padding-top: 1.5em;
+}
+
+canvas{
+  left:0;
+  right: 0;
+  margin: 0 auto;
+}
+
+.queue-subtitle{
+  padding-top: 210px;
+}
+
+.float-right{
+  padding-left: 10em;
+}
+
+.queue-padding{
+  margin-top: 1em;
+}
+
+.prefill .ui.basic.button, .ui.basic.buttons .button{
+  background: white !important;
+  border-radius: 5em;
+  padding-left: 3em;
+  padding-right: 3em;
+  margin: 0 auto;
+}
+
+.prefill .ui.basic.button, .ui.basic.buttons .button h4 {
+    color: #363636 !important;
+}
+
+.italy{
+  font-style: italic;
+}
+
+.cancel .ui.basic.button, .ui.basic.buttons .button{
+  background: #0B35D9 !important;
+  border-radius: 5em;
+  padding-left: 3em;
+  padding-right: 3em;
+  margin: 0 auto;
+}
+
+.cancel .ui.basic.button, .ui.basic.buttons .button h4 {
+    color: white !important;
+}

@@ -16,7 +16,7 @@ class LandingPage extends Component {
           <img src={logo} className="logo"/>
         </div>
           <h3 className="white text-center subheading-container">Don't wait at the queue <br/> You could be doing so much more</h3>
-        <div className="center-child signin-padding">
+        <div className=".signup-text center-child signin-padding">
           <Link to="/find">
             <Button basic size='large'>
               <h4>SIGN IN</h4>

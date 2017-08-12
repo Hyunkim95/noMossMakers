@@ -6,10 +6,6 @@
   color: white;
 }
 
-.custom .ui.dropdown .menu>.item>.description, .ui.dropdown>.text>.description{
-  color: white;
-}
-
 .custom .ui.selection.dropdown {
   border-radius: 3px;
 }

@@ -1,0 +1,17 @@
+.square-button{
+  display: flex;
+  background-color: #0B35D9;
+  width: 100%;
+  padding-top: 1em;
+  padding-bottom: 1em;
+  color: white;
+}
+
+.square-text{
+  flex: 4;
+}
+
+.square-next{
+  flex: 2;
+  margin: 0 auto;
+}

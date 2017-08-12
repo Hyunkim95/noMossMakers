@@ -1,3 +1,23 @@
 .find-text{
   padding-top: 1em;
 }
+
+.findpage-top-padding{
+  padding-top: 4.5em;
+}
+
+.findpage .ui.icon.input>i.icon:not(.link) {
+  color: #1E87C5;
+}
+
+.findpage .ui.basic.button, .ui.basic.buttons .button{
+  background: #0B35D9 !important;
+  border-radius: 5em;
+  padding-left: 5em;
+  padding-right: 5em;
+  margin: 0 auto;
+}
+
+.findpage .ui.basic.button, .ui.basic.buttons .button h4 {
+    color: white !important;
+}

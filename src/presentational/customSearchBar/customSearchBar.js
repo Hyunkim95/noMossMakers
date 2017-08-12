@@ -34,11 +34,12 @@ class CustomSearchBar extends Component {
     return (
       <div className="custom search-bar">
         <Search
-          fluid
+          placeholder={`enter ${this.props.content}`}
           loading={isLoading}
           onResultSelect={this.handleResultSelect}
           onSearchChange={this.handleSearchChange}
           results={results}
+          showNoResults = {this.props.boolean}
           value={value}
         />
       </div>

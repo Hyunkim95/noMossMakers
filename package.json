@@ -3,8 +3,10 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "google-map-react": "^0.24.0",
     "lodash": "^4.17.4",
     "react": "^15.6.1",
+    "react-countdown-clock": "^2.0.0",
     "react-dom": "^15.6.1",
     "react-router-dom": "^4.1.2",
     "semantic-ui-css": "^2.2.12",

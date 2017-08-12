@@ -1,8 +1,7 @@
-.custom .ui.input {
+.search-bar .ui.input {
   width: 100% !important;
 }
 
-.custom .ui.search .prompt {
+.search-bar .ui.search .prompt {
   border-radius: 3px;
 }
-
