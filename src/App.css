@@ -2,3 +2,7 @@
   background-image: url('./image/background.png');
   height: 100vh;
 }
+
+.mobile-only{
+  max-width: 400px;
+}
