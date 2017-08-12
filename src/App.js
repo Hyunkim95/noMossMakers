@@ -1,7 +1,8 @@
 import React, { Component } from 'react';
 import Navbar from './presentational/navBar/navBar';
 import CustomDropdown from './presentational/customDropdown/customDropdown';
-import style from './App.css'
+import CustomSearchBar from './presentational/customSearchBar/customSearchBar'
+import style from './App.css';
 
 class App extends Component {
   render() {
@@ -9,6 +10,7 @@ class App extends Component {
       <div className="background mobile-only">
         < Navbar />
         < CustomDropdown />
+        < CustomSearchBar />
       </div>
     );
   }

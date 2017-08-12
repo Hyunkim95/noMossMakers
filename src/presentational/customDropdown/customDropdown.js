@@ -6,7 +6,7 @@ import { Sickness } from '../../data/sickness'
 class CustomDropdown extends Component {
   render() {
     return (
-      <div>
+      <div className="custom">
         <Dropdown placeholder='I am looking for' fluid search selection options={Sickness} />
       </div>
     );
