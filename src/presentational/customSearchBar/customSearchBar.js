@@ -38,6 +38,7 @@ class CustomSearchBar extends Component {
     return (
       <div className="custom">
         <Search
+          
           loading={isLoading}
           onResultSelect={this.handleResultSelect}
           onSearchChange={this.handleSearchChange}
