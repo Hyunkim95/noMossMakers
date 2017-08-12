@@ -6,7 +6,7 @@ class Form extends Component {
   render() {
     return (
       <div className="custom-form">
-        <Input className="text-form" icon={this.props.icon} iconPosition='left' placeholder={this.props.placeholder} />
+        <Input fluid className="text-form" icon={this.props.icon} iconPosition='left' placeholder={this.props.placeholder} />
       </div>
     );
   }

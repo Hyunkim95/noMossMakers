@@ -7,6 +7,10 @@
   padding-bottom: 1.5em;
 }
 
+.white{
+  color: white;
+}
+
 .navtitle{
   flex: 6;
 }
