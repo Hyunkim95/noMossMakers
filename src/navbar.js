@@ -1,10 +1,10 @@
 import React, { Component } from 'react';
-import style from './App.css'
+import { Menu } from ''
 
 class App extends Component {
   render() {
     return (
-      <div className="background">
+      <div>
       </div>
     );
   }
