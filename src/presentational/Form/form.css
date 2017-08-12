@@ -1,0 +1,27 @@
+.custom-form .ui.input input{
+  background: none;
+  border-left: none;
+  border-right: none;
+  border-top: none;
+  border-bottom: 1px white solid;
+}
+
+.custom-form .ui.input input::placeholder {
+  color: white;
+}
+
+.custom-form .ui.input input {
+  border-radius: 0 !important;
+}
+
+.ui.icon.input>i.icon:not(.link){
+  color: white;
+}
+
+.password-input{
+  margin-top: 1em !important;
+}
+
+.signin-padding{
+  margin-top: 3em;
+}

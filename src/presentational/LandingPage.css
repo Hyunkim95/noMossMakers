@@ -1,0 +1,20 @@
+.text-center{
+  text-align: center;
+}
+
+.subheading{
+  width: 80%;
+}
+
+.logo-container{
+  margin-top: 6em;
+}
+
+.subheading-container{
+  margin-top: 3em;
+}
+
+.logo-container img {
+  width: 40%;
+  height: auto;
+}

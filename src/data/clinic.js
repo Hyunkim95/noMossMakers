@@ -1,6 +1,6 @@
 export const clinic = [
   {
-    "location": "Whatever",
+    "location": "The Feel Good CliniC",
     "description": "Reverse-engineered directional function",
     "postcode": 2154,
     "image": "http://www.thesoshalnetwork.com/wp-content/uploads/2014/08/scary-doctor-450x609.png",

@@ -1,0 +1,26 @@
+.center-child{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.input-form{
+  width: 80%;
+  margin: 0 auto;
+}
+
+.logo-container2{
+  margin-top: 2em;
+}
+
+.signuppage .ui.basic.button, .ui.basic.buttons .button{
+  background: white !important;
+  border-radius: 5em;
+  padding-left: 5em;
+  padding-right: 5em;
+  margin: 0 auto;
+}
+
+.signup-text{
+  margin-top: -0.5em;
+}
