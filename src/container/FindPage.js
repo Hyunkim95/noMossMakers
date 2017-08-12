@@ -5,6 +5,11 @@ class FindPage extends Component {
     return(
       <div>
         <h1>FIND </h1>
+        <Link to="/select">
+          <SelectButton basic size='large'>
+            <h4>SELECT CLINIC</h4>
+          </SelectButton>
+        </Link>
       </div>
     )
   }

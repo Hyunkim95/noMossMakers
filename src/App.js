@@ -10,6 +10,7 @@ import SignUpPage from './container/SignUpPage';
 import FindPage from './container/FindPage';
 import SelectPage from './container/SelectPage';
 import AppointmentPage from './container/AppointmentPage';
+import QueuePage from './container/QueuePage';
 import { BrowserRouter as Router, Route, Link } from 'react-router-dom';
 
 class App extends Component {
@@ -23,6 +24,7 @@ class App extends Component {
             <Route path="/find" component={FindPage}/>
             <Route path="/select" component={SelectPage}/>
             <Route path="/appointment" component={AppointmentPage}/>
+            <Route path="/queue" component={QueuePage}/>
           </div>
         </Router>
       </div>

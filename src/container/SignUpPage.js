@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import { Link } from 'react-router-dom';
 import style from './SignUpPage.css';
 import Form from '../presentational/Form/form';
 import { Button } from 'semantic-ui-react';
@@ -32,9 +33,11 @@ class LandingPage extends Component {
         </div>
 
         <div className="center-child signin-padding">
-          <Button basic size='large'>
-            <h4>SIGN IN</h4>
-          </Button>
+          <Link to="/find">
+            <Button basic size='large'>
+              <h4>SIGN IN</h4>
+            </Button>
+          </Link>
         </div>
 
         <div className="center-child password-input">
