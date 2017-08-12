@@ -2,11 +2,12 @@ import React, { Component } from 'react';
 import Header from './Header/header';
 import logo from '../image/logo.png';
 import style from './LandingPage.css';
+import { Button } from 'semantic-ui-react';
 
 class LandingPage extends Component {
   render() {
     return(
-      <div className="background1">
+      <div className="background1 landingpage">
         <div className="center-child">
           <Header/>
         </div>
@@ -14,6 +15,11 @@ class LandingPage extends Component {
           <img src={logo} className="logo"/>
         </div>
           <h3 className="white text-center subheading-container">Don't wait at the queue <br/> You could be doing so much more</h3>
+        <div className="center-child signin-padding">
+          <Button basic size='large'>
+            <h4>SIGN IN</h4>
+          </Button>
+        </div>
       </div>
     )
   }
