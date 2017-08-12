@@ -1,0 +1,15 @@
+.custom .ui.dropdown .menu .selected.item, .ui.dropdown.selected {
+  background: #509CDD !important;
+}
+
+.custom .ui.dropdown .menu .selected.item, .ui.dropdown.selected{
+  color: white;
+}
+
+.custom .ui.dropdown .menu>.item>.description, .ui.dropdown>.text>.description{
+  color: white;
+}
+
+.custom .ui.selection.dropdown {
+  border-radius: 0;
+}

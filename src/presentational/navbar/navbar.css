@@ -3,4 +3,17 @@
   width: 100%;
   display: flex;
   justify-content: space-around;
+  padding-bottom: 1.5em;
+}
+
+.navtitle{
+  flex: 6;
+}
+
+.center{
+  text-align: center;
+}
+
+.navitem{
+  flex: 2;
 }
