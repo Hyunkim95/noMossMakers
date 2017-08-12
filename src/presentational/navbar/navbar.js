@@ -7,7 +7,9 @@ class Navbar extends Component {
     return (
       <div className="navbar-container center">
         <div className="navitem"></div>
-        <div className="navtitle">Queue'd</div>
+        <div className="navtitle">
+          <h2 className="white">Queue'd</h2>
+        </div>
         <div className="navitem">
           <img src={profile} className="profile"/>
         </div>
