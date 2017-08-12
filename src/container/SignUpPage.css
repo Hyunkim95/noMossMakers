@@ -11,11 +11,7 @@
 
 .logo-container2{
   margin-top: 2em;
-}
-
-.logo-container img{
-  width: 60%;
-  height: auto
+  padding-left: 2em;
 }
 
 .signuppage .ui.basic.button, .ui.basic.buttons .button{
