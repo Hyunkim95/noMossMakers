@@ -1,7 +1,8 @@
 import React, { Component } from 'react';
-import Navbar from './presentational/navBar/navBar';
+import Navbar from './presentational/navbar/navbar';
 import CustomDropdown from './presentational/customDropdown/customDropdown';
-import CustomSearchBar from './presentational/customSearchBar/customSearchBar'
+import CustomSearchBar from './presentational/customSearchBar/customSearchBar';
+import Form from './presentational/Form/form';
 import style from './App.css';
 
 class App extends Component {
@@ -11,6 +12,14 @@ class App extends Component {
         < Navbar />
         < CustomDropdown />
         < CustomSearchBar />
+        < Form 
+          icon = "mail"
+          placeholder = "EMAIL"
+        />
+        < Form 
+          icon = "lock"
+          placeholder = "PASSWORD"
+        />
       </div>
     );
   }
