@@ -1,3 +1,4 @@
 .background{
-  background-image: url('../public/images/background.png');
+  background-image: url('./image/background.png');
+  height: 100vh;
 }
