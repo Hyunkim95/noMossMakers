@@ -4,7 +4,8 @@
   "private": true,
   "dependencies": {
     "react": "^15.6.1",
-    "react-dom": "^15.6.1"
+    "react-dom": "^15.6.1",
+    "semantic-ui-react": "^0.71.4"
   },
   "devDependencies": {
     "react-scripts": "1.0.11"
@@ -14,5 +15,9 @@
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",
     "eject": "react-scripts eject"
-  }
+  },
+  "main": "index.js",
+  "repository": "https://github.com/Hyunkim95/noMossMakers.git",
+  "author": "Hyun Kim <hkim@live.com.au>",
+  "license": "MIT"
 }
