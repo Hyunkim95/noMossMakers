@@ -13,6 +13,11 @@
   margin-top: 2em;
 }
 
+.logo-container img{
+  width: 60%;
+  height: auto
+}
+
 .signuppage .ui.basic.button, .ui.basic.buttons .button{
   background: white !important;
   border-radius: 5em;
